@@ -20,8 +20,7 @@ TOKEN = config.get('main', 'token')
 
 initial_modules = [
         'GroupManager',
-        'StatsManager',
-        'Reflector'
+        'StatsManager'
         ]
 
 @client.event
